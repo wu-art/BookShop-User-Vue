@@ -1,0 +1,73 @@
+div.mainContent{
+      width: 70%;
+      height: auto;
+      margin: 0 auto;
+      /* background-color: blue; */
+}
+div.mainContent .cardone{
+      width: 100%;
+      /* height: 100%; */
+}
+div.mainContent .cardone .cartorderlist{
+      width: 100%;
+      /* height: 120px; */
+      margin-top: 20px;
+      /* background-color: blueviolet; */
+}
+div.mainContent .cardone .cartorderlist .cardtwo{
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+}
+
+/* 设置每条订单的样式 */
+.cartorderlist .cardtwo img{
+      width: 100px;
+      height: 100px;
+      float: left;
+      margin-top: -10px;
+      margin-left: 40px;
+      border: 1px royalblue solid;
+      border-radius: 10px;
+}
+.cartorderlist .cardtwo .el-button{
+      position: relative;
+      margin-left: 200px;
+      top: -45px;
+      width: 115px;
+      clear: both;
+}
+.cartorderlist .cardtwo .btitle{
+      float: left;
+      height: 0px;    
+      line-height: 0px; 
+      margin-left: 20px;
+      font-weight: 800;
+      font-family: 'Courier New', Courier, monospace;     
+}
+.cartorderlist .cardtwo .btype{
+      float: left;
+      height: 0px;
+      margin-left: 20px;
+      margin-top: 2px;
+      line-height: 0px; 
+      font-weight: 800;
+      font-size: 13px;
+      color: gray;
+      font-family: 'Courier New', Courier, monospace;
+}
+.cartorderlist .cardtwo .bprice{
+      float: left;
+      margin-left: 20px;
+      font-weight: 800;
+      font-size: 13px;
+      color: red;
+}
+.cartorderlist .cardtwo .el-input-number{
+      margin-left: 100px;
+      clear: both;
+}
+.cartorderlist .jiesuan{
+      margin-left: 85%;
+      margin-top: 20px;
+}

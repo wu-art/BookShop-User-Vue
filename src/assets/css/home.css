@@ -1,0 +1,217 @@
+div.home {
+  width: 100%;
+  position: relative;
+  background-image: url('../images/book21.gif');
+}
+
+.el-header {
+  background-color: #b3c0d1;
+  color: #333;
+}
+
+.el-footer {
+  background-color: palegoldenrod;
+  opacity: 0.8;
+  color: #333;
+  /* position: relative; */
+  /* background-image: url('../images/di.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: 50% 100%; */
+}
+.el-footer p{
+  text-align: center;
+  color: gray;
+}
+
+.el-aside {
+  background-color: #d3dce6;
+  color: #333;
+}
+
+.el-main {
+  /* background-color: rgb(255, 60, 60); */
+  color: #333;
+}
+/* 上方导航条 */
+.el-menu{
+      width:102.7%;
+      /* height: 100px; */
+      margin-left: -20px;
+}
+a{
+      text-decoration: none;
+      color: white;
+}
+div .main-content{
+      width: 80%;
+      margin: 0 auto;
+      /* border: 2px solid black; */
+      overflow: hidden;
+}
+.mainTop{
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  /* background-color: chocolate; */
+}
+/* logo */
+.mainTop .bookLogo{
+  width: 235px;
+  height: 100px;
+  /* background-color: blue; */
+  float: left;
+}
+.mainTop .bookLogo img{
+  width: 100%;
+  height: 100%;
+}
+/* 搜索 */
+.topSearch .searchBox{
+      width:60%;
+      height: 39px;
+      margin-left: 6%;
+      margin-top: 11px;
+      border: red solid 2px;
+      border-radius: 5px;
+      padding-left: 0px;
+}
+/* 搜索框下方文字p  span  a */
+.topSearch p{
+  width: 60%;
+  margin-left: 26%;
+}
+.topSearch p span a{
+  color: red;
+}
+.topSearch p span a:hover{
+  text-decoration: underline;
+}
+.book-content{
+  background-color:white;
+}
+.book-content ul{
+  list-style-type: none;
+  margin-left: -40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  clear: both;
+}
+.book-content ul li{
+  float: left;
+  width: 210px;
+  height: 300px;
+  border: gray solid 2px;
+  /* margin-right: 30px; */
+  margin-bottom: 20px;
+  text-align: center;
+  /* overflow-y: scroll; */
+}
+.book-content ul li:hover{
+  box-shadow: 4px 4px gray;
+  cursor: pointer;
+}
+/* 列表图片 */
+.book-content ul li img{
+  width: 195px;
+  height: 220px;
+}
+/* 分页 */
+div .fenye{
+  width: 100%;
+  height: 50px;
+  clear: both;
+  margin-left: 200px;
+}
+/* 轮播图 */
+.main-content .lun-bo{
+  width: 100%;
+  height: 450px;
+  margin-top: 20px;
+  border: 1px solid red;
+}
+/* 左侧导航栏 */
+.lun-bo .left-nav{
+  width: 20%;
+  height: 100%;
+  float: left;
+  /* background-color: salmon; */
+}
+.lun-bo .left-nav ul{
+  width: 100%;
+  margin-left: -40px;
+  margin-top: 0px;
+  list-style-type: none;
+}
+.lun-bo .left-nav ul li{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: rgb(162, 160, 160);
+}
+.lun-bo .left-nav ul li:hover{
+  background-color: rgb(255, 103, 0);
+}
+/* 轮播右侧 */
+.lun-bo .right-content{
+  float: left;
+  width: 80%;
+  height: 100%;
+  background-color: saddlebrown;
+}
+/* 轮播 */
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 150px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+   background-color: #99a9bf;
+}
+/* 多条件搜索 */
+.main-content .sousuo{
+  margin-top: 8px;
+  width: 100%;
+  height: 40px;
+}
+.sousuo .demo-form-inline{
+  width: 100%;
+  margin-left: 18%;
+  /* display: flex;
+  justify-content: space-around; */
+}
+/* 轮播属性 */
+.el-carousel__item:nth-child(2n+1) {
+   background-color: #d3dce6;
+}
+.box-card{
+  height: 450px;
+}
+.btn{
+  position: fixed;
+  top: 210px;
+  left: 89%;
+  z-index: 9999;
+}
+/* 详情按钮样式 */
+.book-content .detailStyle{
+  font-family:kaiti;
+  font-size:13px;
+  color:red;
+}
+.book-content .detailStyle:hover{
+  text-decoration: underline;
+}
+/* 添加到购物车 */
+.book-content .addCarStyle{
+  font-family:kaiti;
+  font-size:13px;
+  color:red;
+}
+.book-content .addCarStyle:hover{
+  text-decoration: underline;
+}
